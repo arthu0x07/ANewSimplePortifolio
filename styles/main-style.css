@@ -18,6 +18,7 @@ body * {
 
 body {
   background-color: var(--body-bg-color);
+  padding: 10px;
 }
 
 #wrapper {
@@ -37,11 +38,11 @@ body {
   display: flex;
   justify-content: center;
   flex-direction: row;
-  align-items: baseline;
 }
 
 .container-aside-section {
   width: 348px;
+  margin-right: 60px;
 }
 
 .aside-logo-container {
@@ -54,13 +55,13 @@ body {
   border-radius: 20px;
 }
 
-    /* Logo Image*/
+/* Logo Image*/
 .aside-logo-container img {
-    width: 148px;
-    height: 148px;
-    margin-bottom: 2rem;
-    border-radius: 50%;
-  }
+  width: 148px;
+  height: 148px;
+  margin-bottom: 2rem;
+  border-radius: 50%;
+}
 
 .aside-logo-container svg {
   width: 148px;
@@ -95,13 +96,7 @@ body {
   margin-right: 17px;
 }
 
-.aside-informations-container {
-}
-
-.aside-techs-container {
-}
-
-.title-techs {
+.title-cards-aside {
   width: 100%;
   font-size: 1.25rem;
 
@@ -140,7 +135,54 @@ body {
   padding-bottom: 30px;
 }
 
+.aside-techs-container {
+}
+
+.container-aside-experiences {
+  padding-bottom: 1rem;
+}
+
+.container-experiences-details {
+  margin-left: 50px;
+}
+
+.item-experiences-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: initial;
+
+  margin-bottom: 1rem;
+}
+
+.item-experiences-details h3 {
+  font-weight: 900;
+  font-size: 14px;
+
+  position: relative;
+}
+
+.item-experiences-details h3::after {
+  content: " ";
+
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+
+  position: absolute;
+  left: -1rem;
+  top: 0.3rem;
+
+  background-color: var(--bg-techs);
+}
+
+.item-experiences-details span {
+  font-size: 12px;
+}
+
+/* Inicio Aba Direita  */
 .container-main-lateral {
   width: 952px;
   height: 30px;
+
+  border: 1px solid rgba(255, 255, 0, 0.411);
 }
