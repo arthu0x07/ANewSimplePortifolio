@@ -18,7 +18,7 @@ body * {
 
 body {
   background-color: var(--body-bg-color);
-  padding: 10px;
+  padding: 20px;
 }
 
 #wrapper {
@@ -41,8 +41,9 @@ body {
 }
 
 .container-aside-section {
-  width: 348px;
-  margin-right: 60px;
+  width: 320px;
+  margin-right: 35px;
+  margin-left: 30px;
 }
 
 .aside-logo-container {
@@ -181,8 +182,34 @@ body {
 
 /* Inicio Aba Direita  */
 .container-main-lateral {
-  width: 952px;
-  height: 30px;
+  max-width: 952px;
+  width: 100%;
+  margin-right: 30px;
+}
 
-  border: 1px solid rgba(255, 255, 0, 0.411);
+.lateral-allmyprojects-container {
+  width: 952px;
+  height: auto;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 30px;
+  border-radius: 20px;
+
+  background-color: var(--bg-cards);
+}
+
+.lateral-allmyprojects-container{
+  font-size: 0.875rem;
+}
+
+.container-projects-github{
+  display: flex;
+  justify-content: baseline;
+}
+
+.projects-github{
+  
 }
