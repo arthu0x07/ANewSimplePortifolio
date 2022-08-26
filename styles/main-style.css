@@ -1,0 +1,146 @@
+:root {
+  --body-bg-color: #22212c;
+  --text-color: #837e9f;
+  --bg-cards: #302f3d;
+  --bg-techs: #cb92b1;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body * {
+  font-family: "Merriweather Sans", sans-serif;
+  color: var(--text-color);
+}
+
+body {
+  background-color: var(--body-bg-color);
+}
+
+#wrapper {
+  max-width: 1366px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.cards {
+  background-color: var(--bg-cards) !important;
+  width: inherit !important;
+  border-radius: 20px;
+  margin-bottom: 30px;
+}
+
+.container-mainaside-section {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: baseline;
+}
+
+.container-aside-section {
+  width: 348px;
+}
+
+.aside-logo-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  padding: 32px 0px;
+  border-radius: 20px;
+}
+
+    /* Logo Image*/
+.aside-logo-container img {
+    width: 148px;
+    height: 148px;
+    margin-bottom: 2rem;
+    border-radius: 50%;
+  }
+
+.aside-logo-container svg {
+  width: 148px;
+  height: 148px;
+  margin-bottom: 2rem;
+  border-radius: 50%;
+}
+
+.aside-logo-container h3 {
+  margin-bottom: 0.68rem;
+}
+
+.container-list-informations {
+  list-style: none;
+  padding: 30px 40px;
+
+  height: 348px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.container-list-informations li {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+}
+
+.container-list-informations li svg {
+  margin-right: 17px;
+}
+
+.aside-informations-container {
+}
+
+.aside-techs-container {
+}
+
+.title-techs {
+  width: 100%;
+  font-size: 1.25rem;
+
+  padding: 30px 20px;
+}
+
+.container-techs-style {
+  background-color: var(--bg-techs);
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+
+  border-radius: 30px;
+
+  font-size: 10px;
+  padding: 7px 6px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  text-align: center;
+}
+
+.container-techs-style h4 {
+  color: #000000;
+  font-weight: 900;
+}
+
+.container-grid-sections {
+  width: 100%;
+  padding: 0 30px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1rem;
+
+  padding-bottom: 30px;
+}
+
+.container-main-lateral {
+  width: 952px;
+  height: 30px;
+}
