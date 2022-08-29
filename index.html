@@ -15,6 +15,7 @@
     />
     <!-- StyleSheet's -->
     <link rel="stylesheet" href="./styles/main-style.css" />
+    <link rel="stylesheet" href="styles/scrollbar-style.css" />
   </head>
   <body>
     <div id="wrapper">
@@ -256,15 +257,376 @@
         </aside>
 
         <main class="container-main-lateral">
-            <section class="lateral-allmyprojects-container">
-                <h2>My Projects</h2>
+          <section class="lateral-allmyprojects-container">
+            <h2>My Projects</h2>
 
-                <h3>Veja Todos</h3>
+            <h3>Veja Todos</h3>
+          </section>
+          <div class="container-projects-github">
+            <section class="projects-github">
+              <div class="project-container-nameProject">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="feather feather-folder"
+                >
+                  <path
+                    d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"
+                  ></path>
+                </svg>
+                <h4>my-onix</h4>
+              </div>
+              <p class="project-paragraf-description">
+                Consulte os cpodigos de erro que aparece no painel do veículo
+                Onix.
+              </p>
+              <section class="project-container-anotherInfos">
+                <div class="project-container-starAndForks">
+                  <div class="project-starsQttd">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      class="feather feather-star"
+                    >
+                      <polygon
+                        points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"
+                      ></polygon>
+                    </svg>
+                    <span>109</span>
+                  </div>
+                  <div class="project-forkQttd">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      class="feather feather-git-branch"
+                    >
+                      <line x1="6" y1="3" x2="6" y2="15"></line>
+                      <circle cx="18" cy="6" r="3"></circle>
+                      <circle cx="6" cy="18" r="3"></circle>
+                      <path d="M18 9a9 9 0 0 1-9 9"></path>
+                    </svg>
+                    <span>109</span>
+                  </div>
+                </div>
+                <div class="project-typeProject">
+                  <div class="circle-yellow"></div>
+                  <h5>Javascript</h5>
+                </div>
+              </section>
             </section>
-            <div class="container-projects-github">
-                <section class="projects-github"></section>
-                <section class="projects-github"></section>
-            </div>
+            <section class="projects-github">
+              <div class="project-container-nameProject">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="feather feather-folder"
+                >
+                  <path
+                    d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"
+                  ></path>
+                </svg>
+                <h4>my-onix</h4>
+              </div>
+              <p class="project-paragraf-description">
+                Consulte os cpodigos de erro que aparece no painel do veículo
+                Onix.
+              </p>
+              <section class="project-container-anotherInfos">
+                <div class="project-container-starAndForks">
+                  <div class="project-starsQttd">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      class="feather feather-star"
+                    >
+                      <polygon
+                        points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"
+                      ></polygon>
+                    </svg>
+                    <span>109</span>
+                  </div>
+                  <div class="project-forkQttd">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      class="feather feather-git-branch"
+                    >
+                      <line x1="6" y1="3" x2="6" y2="15"></line>
+                      <circle cx="18" cy="6" r="3"></circle>
+                      <circle cx="6" cy="18" r="3"></circle>
+                      <path d="M18 9a9 9 0 0 1-9 9"></path>
+                    </svg>
+                    <span>109</span>
+                  </div>
+                </div>
+                <div class="project-typeProject">
+                  <div class="circle-yellow"></div>
+                  <h5>Javascript</h5>
+                </div>
+              </section>
+            </section>
+
+            <section class="projects-github">
+              <div class="project-container-nameProject">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="feather feather-folder"
+                >
+                  <path
+                    d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"
+                  ></path>
+                </svg>
+                <h4>my-onix</h4>
+              </div>
+              <p class="project-paragraf-description">
+                Consulte os cpodigos de erro que aparece no painel do veículo
+                Onix.
+              </p>
+              <section class="project-container-anotherInfos">
+                <div class="project-container-starAndForks">
+                  <div class="project-starsQttd">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      class="feather feather-star"
+                    >
+                      <polygon
+                        points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"
+                      ></polygon>
+                    </svg>
+                    <span>109</span>
+                  </div>
+                  <div class="project-forkQttd">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      class="feather feather-git-branch"
+                    >
+                      <line x1="6" y1="3" x2="6" y2="15"></line>
+                      <circle cx="18" cy="6" r="3"></circle>
+                      <circle cx="6" cy="18" r="3"></circle>
+                      <path d="M18 9a9 9 0 0 1-9 9"></path>
+                    </svg>
+                    <span>109</span>
+                  </div>
+                </div>
+                <div class="project-typeProject">
+                  <div class="circle-yellow"></div>
+                  <h5>Javascript</h5>
+                </div>
+              </section>
+            </section>
+
+            <section class="projects-github">
+              <div class="project-container-nameProject">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="feather feather-folder"
+                >
+                  <path
+                    d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"
+                  ></path>
+                </svg>
+                <h4>my-onix</h4>
+              </div>
+              <p class="project-paragraf-description">
+                Consulte os cpodigos de erro que aparece no painel do veículo
+                Onix.
+              </p>
+              <section class="project-container-anotherInfos">
+                <div class="project-container-starAndForks">
+                  <div class="project-starsQttd">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      class="feather feather-star"
+                    >
+                      <polygon
+                        points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"
+                      ></polygon>
+                    </svg>
+                    <span>109</span>
+                  </div>
+                  <div class="project-forkQttd">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      class="feather feather-git-branch"
+                    >
+                      <line x1="6" y1="3" x2="6" y2="15"></line>
+                      <circle cx="18" cy="6" r="3"></circle>
+                      <circle cx="6" cy="18" r="3"></circle>
+                      <path d="M18 9a9 9 0 0 1-9 9"></path>
+                    </svg>
+                    <span>109</span>
+                  </div>
+                </div>
+                <div class="project-typeProject">
+                  <div class="circle-yellow"></div>
+                  <h5>Javascript</h5>
+                </div>
+              </section>
+            </section>
+
+            <section class="projects-github">
+              <div class="project-container-nameProject">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="feather feather-folder"
+                >
+                  <path
+                    d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"
+                  ></path>
+                </svg>
+                <h4>my-onix</h4>
+              </div>
+              <p class="project-paragraf-description">
+                Consulte os cpodigos de erro que aparece no painel do veículo
+                Onix.
+              </p>
+              <section class="project-container-anotherInfos">
+                <div class="project-container-starAndForks">
+                  <div class="project-starsQttd">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      class="feather feather-star"
+                    >
+                      <polygon
+                        points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"
+                      ></polygon>
+                    </svg>
+                    <span>109</span>
+                  </div>
+                  <div class="project-forkQttd">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      class="feather feather-git-branch"
+                    >
+                      <line x1="6" y1="3" x2="6" y2="15"></line>
+                      <circle cx="18" cy="6" r="3"></circle>
+                      <circle cx="6" cy="18" r="3"></circle>
+                      <path d="M18 9a9 9 0 0 1-9 9"></path>
+                    </svg>
+                    <span>109</span>
+                  </div>
+                </div>
+                <div class="project-typeProject">
+                  <div class="circle-yellow"></div>
+                  <h5>Javascript</h5>
+                </div>
+              </section>
+            </section>
+          </div>
         </main>
       </section>
     </div>

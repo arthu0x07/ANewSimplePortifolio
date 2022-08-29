@@ -201,15 +201,93 @@ body {
   background-color: var(--bg-cards);
 }
 
-.lateral-allmyprojects-container{
+.lateral-allmyprojects-container {
   font-size: 0.875rem;
 }
 
-.container-projects-github{
+.container-projects-github {
   display: flex;
   justify-content: baseline;
+  gap: 2rem;
+
+  overflow: hidden;
+  scroll-behavior: smooth;
+  overflow-x: visible;
+
+  padding-bottom: 1rem;
+
+  scroll-snap-type: x mandatory;
 }
 
-.projects-github{
-  
+.projects-github {
+  scroll-snap-align: start;
+
+  min-height: 186px;
+  min-width: 461px;
+
+  background-color: var(--bg-cards);
+  margin-top: 2rem;
+  border-radius: 20px;
+
+  padding: 30px;
+}
+
+.project-container-nameProject {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.project-container-nameProject svg {
+  margin-right: 1rem;
+}
+
+.project-paragraf-description {
+  margin-bottom: 2.3rem;
+  font-size: 0.875rem;
+}
+
+.project-container-anotherInfos {
+  display: flex;
+  justify-content: space-between;
+}
+
+.project-container-starAndForks {
+  display: flex;
+  justify-content: space-between;
+}
+
+.project-starsQttd {
+  display: flex;
+  align-items: center;
+  margin-right: 1rem;
+}
+
+.project-starsQttd svg {
+  margin-right: 0.5rem;
+}
+
+.project-forkQttd {
+  display: flex;
+  align-items: center;
+}
+
+.project-forkQttd svg {
+  margin-right: 0.5rem;
+}
+
+.project-typeProject {
+  display: flex;
+  align-items: center;
+}
+
+.circle-yellow {
+  width: 15px;
+  height: 15px;
+
+  background-color: #e7de79;
+  outline: #837e9f 2px solid;
+
+  border-radius: 50%;
+  margin-right: 0.5rem;
 }

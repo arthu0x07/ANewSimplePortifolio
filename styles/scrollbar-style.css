@@ -1,0 +1,40 @@
+/* Firefox */
+* {
+  scrollbar-width: auto;
+  scrollbar-color: #8f54a0 #f2f2f2;
+}
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 16px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #17161e;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #8f54a0;
+  border-radius: 10px;
+}
+
+/* ScrollBar - Container Projetos*/
+
+.container-projects-github {
+  scrollbar-width: auto;
+  scrollbar-color: #8f54a0 #f2f2f2;
+}
+
+.container-projects-github::-webkit-scrollbar {
+  width: 16px;
+  height: 15px;
+}
+
+.container-projects-github::-webkit-scrollbar-track {
+  background: #17161e;
+}
+
+.container-projects-github::-webkit-scrollbar-thumb {
+  background-color: #8f54a0;
+  border-radius: 10px;
+}
