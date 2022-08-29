@@ -217,6 +217,8 @@ body {
   padding-bottom: 1rem;
 
   scroll-snap-type: x mandatory;
+
+  margin-bottom: 2rem;
 }
 
 .projects-github {
@@ -290,4 +292,18 @@ body {
 
   border-radius: 50%;
   margin-right: 0.5rem;
+}
+
+.lateral-RecentPosts-container {
+  width: 952px;
+  height: auto;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 30px;
+  border-radius: 20px;
+
+  background-color: var(--bg-cards);
 }
