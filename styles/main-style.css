@@ -21,6 +21,10 @@ body {
   padding: 20px;
 }
 
+html {
+  font-size: 100%;
+}
+
 #wrapper {
   max-width: 1366px;
   width: 100%;
@@ -52,7 +56,7 @@ body {
   align-items: center;
   justify-content: center;
 
-  padding: 32px 0px;
+  padding: 2rem 0px;
   border-radius: 20px;
 }
 
@@ -182,13 +186,14 @@ body {
 
 /* Inicio Aba Direita  */
 .container-main-lateral {
-  max-width: 952px;
-  width: 100%;
+  width: 952px;
+  max-width: 60%;
   margin-right: 30px;
 }
 
 .lateral-allmyprojects-container {
-  width: 952px;
+  max-width: 952px;
+  width: 100%;
   height: auto;
 
   display: flex;
@@ -295,7 +300,6 @@ body {
 }
 
 .lateral-RecentPosts-container {
-  width: 952px;
   height: auto;
 
   display: flex;
@@ -306,4 +310,135 @@ body {
   border-radius: 20px;
 
   background-color: var(--bg-cards);
+}
+
+.lateral-Post-container {
+  padding: 30px;
+  background-color: var(--bg-cards);
+  margin-top: 2rem;
+  border-radius: 22px;
+
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.lateral-Post-container img {
+  width: 9.25rem;
+  height: 9.25rem;
+  border-radius: 50%;
+  margin-right: 2rem;
+}
+
+.lateral-Post-container-descriptions {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.lateral-Post-container-descriptions h5 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.lateral-Post-container-descriptions span {
+  margin-bottom: 25px;
+}
+
+.lateral-Post-container-descriptions > p {
+  margin-bottom: 12px;
+}
+
+.description-container-hashtags {
+  display: flex;
+}
+
+.description-container-hashtags span {
+  margin-right: 10px;
+}
+
+@media (max-width: 1024px) {
+  html {
+    font-size: 90%;
+  }
+}
+
+@media (max-width: 940px) {
+  html {
+    font-size: 80%;
+  }
+}
+
+@media (max-width: 856px) {
+  html {
+    font-size: 100%;
+  }
+
+  .container-mainaside-section {
+    flex-wrap: wrap;
+  }
+
+  .container-main-lateral {
+    width: initial;
+    max-width: 100%;
+    margin-right: 30px;
+  }
+
+  .container-main-lateral {
+    width: initial;
+    max-width: 100%;
+    margin-right: unset;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .container-projects-github {
+    width: 100%;
+  }
+
+  .lateral-RecentPosts-container {
+    margin-top: 7rem;
+    margin-bottom: 1rem;
+  }
+
+  .lateral-allmyprojects-container {
+    margin-top: 7rem;
+    margin-bottom: unset;
+  }
+
+  .container-aside-section {
+    width: auto;
+    margin-right: unset;
+    margin-left: unset;
+  }
+}
+
+@media (max-width: 638px) {
+  html {
+    font-size: 90%;
+  }
+
+  .lateral-Post-container {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .lateral-Post-container img {
+    margin-bottom: 3.5rem;
+  }
+}
+
+@media (max-width: 470px) {
+  html {
+    font-size: 70%;
+  }
+
+  .container-aside-section {
+    width: auto;
+    margin-right: unset;
+    margin-left: unset;
+  }
 }
