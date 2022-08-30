@@ -429,6 +429,22 @@ html {
   .lateral-Post-container img {
     margin-bottom: 3.5rem;
   }
+
+  .projects-github {
+    min-height: 186px;
+    min-width: 270px;
+  }
+
+  .project-container-anotherInfos {
+  }
+
+  .project-forkQttd {
+    margin-right: 1rem;
+  }
+
+  .container-projects-github {
+    gap: 0.275rem;
+  }
 }
 
 @media (max-width: 470px) {
